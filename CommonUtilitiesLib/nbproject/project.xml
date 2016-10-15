@@ -7,11 +7,9 @@
             <c-extensions>c</c-extensions>
             <cpp-extensions>cpp</cpp-extensions>
             <header-extensions>h</header-extensions>
-            <sourceEncoding>UTF-8</sourceEncoding>
+            <sourceEncoding>GB2312</sourceEncoding>
             <make-dep-projects/>
-            <sourceRootList>
-                <sourceRootElem>.</sourceRootElem>
-            </sourceRootList>
+            <sourceRootList/>
             <confList>
                 <confElem>
                     <name>Debug</name>
@@ -19,6 +17,22 @@
                 </confElem>
                 <confElem>
                     <name>Release</name>
+                    <type>3</type>
+                </confElem>
+                <confElem>
+                    <name>gm8126</name>
+                    <type>3</type>
+                </confElem>
+                <confElem>
+                    <name>x64</name>
+                    <type>3</type>
+                </confElem>
+                <confElem>
+                    <name>hisiv100</name>
+                    <type>3</type>
+                </confElem>
+                <confElem>
+                    <name>i386</name>
                     <type>3</type>
                 </confElem>
             </confList>

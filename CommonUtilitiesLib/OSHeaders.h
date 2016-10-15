@@ -191,7 +191,7 @@
     #endif
         
     #define TW0_CHARS_TO_INT( c1, c2 )  ( c1 << 8 | c2 )
-
+	#define MAX_PATH 260 
 
 
 
@@ -280,8 +280,8 @@
     typedef ULONGLONG           UInt64;
     typedef float               Float32;
     typedef double              Float64;
-    typedef UInt16              Bool16;
-    typedef UInt8               Bool8;
+    //typedef UInt16              Bool16;
+    //typedef UInt8               Bool8;
     
     typedef unsigned long       FourCharCode;
     typedef FourCharCode        OSType;

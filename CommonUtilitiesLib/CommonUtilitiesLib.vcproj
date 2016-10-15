@@ -42,7 +42,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="../,../WinNTSupport/,.."
+				AdditionalIncludeDirectories="../;../Include/;../EasyProtocol/Include/"
 				PreprocessorDefinitions="WIN32;_DEBUG;_LIB"
 				RuntimeLibrary="1"
 				PrecompiledHeaderFile=".\Debug/CommonUtilitiesLib.pch"
@@ -53,7 +53,7 @@
 				WarningLevel="3"
 				SuppressStartupBanner="true"
 				DebugInformationFormat="4"
-				ForcedIncludeFiles="../WinNTSupport/Win32header.h"
+				ForcedIncludeFiles="../Include/Win32header.h"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -118,7 +118,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="4"
 				InlineFunctionExpansion="2"
-				AdditionalIncludeDirectories="../,../WinNTSupport/,.."
+				AdditionalIncludeDirectories="../;../Include/;../EasyProtocol/Include/"
 				PreprocessorDefinitions="WIN32;_LIB"
 				RuntimeLibrary="0"
 				PrecompiledHeaderFile=".\Release/CommonUtilitiesLib.pch"
@@ -127,7 +127,7 @@
 				ProgramDataBaseFileName=".\Release/"
 				SuppressStartupBanner="true"
 				DebugInformationFormat="1"
-				ForcedIncludeFiles="../WinNTSupport/Win32header.h"
+				ForcedIncludeFiles="../Include/Win32header.h"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -219,6 +219,14 @@
 				</FileConfiguration>
 			</File>
 			<File
+				RelativePath=".\ClientSocket.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ClientSocket.h"
+				>
+			</File>
+			<File
 				RelativePath="ConfParser.cpp"
 				>
 				<FileConfiguration
@@ -291,6 +299,10 @@
 				</FileConfiguration>
 			</File>
 			<File
+				RelativePath=".\Format.cpp"
+				>
+			</File>
+			<File
 				RelativePath="getopt.c"
 				>
 				<FileConfiguration
@@ -361,6 +373,10 @@
 						ForcedIncludeFiles=""
 					/>
 				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\keyframecache.cpp"
+				>
 			</File>
 			<File
 				RelativePath="md5.c"
@@ -579,6 +595,10 @@
 				</FileConfiguration>
 			</File>
 			<File
+				RelativePath=".\OSMapEx.cpp"
+				>
+			</File>
+			<File
 				RelativePath="OSMutex.cpp"
 				>
 				<FileConfiguration
@@ -675,6 +695,10 @@
 				</FileConfiguration>
 			</File>
 			<File
+				RelativePath=".\OSRefTableEx.cpp"
+				>
+			</File>
+			<File
 				RelativePath="OSThread.cpp"
 				>
 				<FileConfiguration
@@ -699,6 +723,14 @@
 				</FileConfiguration>
 			</File>
 			<File
+				RelativePath=".\QueryParamList.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\QueryParamList.h"
+				>
+			</File>
+			<File
 				RelativePath="ResizeableStringFormatter.cpp"
 				>
 				<FileConfiguration
@@ -721,6 +753,10 @@
 						ForcedIncludeFiles=""
 					/>
 				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\sdpCache.cpp"
+				>
 			</File>
 			<File
 				RelativePath="SDPUtils.cpp"
@@ -889,6 +925,10 @@
 						ForcedIncludeFiles=""
 					/>
 				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\SyncDeque.h"
+				>
 			</File>
 			<File
 				RelativePath="Task.cpp"
@@ -1131,6 +1171,18 @@
 				</FileConfiguration>
 			</File>
 		</Filter>
+		<File
+			RelativePath=".\Format.h"
+			>
+		</File>
+		<File
+			RelativePath=".\OSMapEx.h"
+			>
+		</File>
+		<File
+			RelativePath=".\OSRefTableEx.h"
+			>
+		</File>
 	</Files>
 	<Globals>
 	</Globals>
